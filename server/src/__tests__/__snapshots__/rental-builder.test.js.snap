@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should change state to deposit paid 1`] = `
+Rental {
+  "car_id": 1,
+  "client_id": 1,
+  "deposit": 5000,
+  "rental_id": 1,
+  "state": "RESERVED",
+}
+`;
+
+exports[`should return rental state 1`] = `
+Rental {
+  "car_id": 1,
+  "client_id": 1,
+  "deposit": 5000,
+  "rental_id": 1,
+  "state": "RESERVED",
+}
+`;
